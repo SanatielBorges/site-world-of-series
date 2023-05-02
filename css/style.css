@@ -1,0 +1,235 @@
+/* FOLHA DES ESTILO CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, 
+h4, h5, h6{
+    font-family: 'Lobster', cursive;
+    color: rgb(4, 4, 90);
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* ========================================================= */
+
+/* CONFIG HEADER */
+
+header{
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+    background-color: rgb(106, 29, 136);
+}
+
+header img{
+    height: 60px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    align-items: center;
+}
+
+header li{
+    display: inline;
+    margin-right: 10px;
+}
+
+header li a:hover{
+    color: rgb(4, 4, 90);
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+/* FIM CONFIG HEADER */
+
+/* CONFIG DESTAQUES */
+.destaques{
+    display: flex;
+    justify-content: center;
+}
+
+.destaques h3{
+    display: flex;
+    margin-left: -355px;
+    text-align: center;
+}
+
+.destaques h1{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+/* FIM CONFIG DESTAQUES */
+
+
+/* CONFIG BOX-CONTAINER */
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+}
+
+.box-container aside img{
+    height: 120px;
+    width: 120px;
+}
+
+.primary-box{
+    display: flex;  
+    max-width: 120px;
+    width: 100%;
+    margin-left: 45px;
+    margin-right: 30px;
+}
+
+.primary-box aside{
+    margin-left: -10px;
+}
+
+.second-box{
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    margin-right: 60px;
+}
+.second-box img{
+    height: 500px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+
+.second-box{
+    text-align: center;
+    margin-left: 25px;
+}
+
+.second-box .postion-elements h3, p{
+    text-align: justify;
+}
+/* FIM CONFIG BOX-CONTAINER */
+
+/*==============================================================*/
+
+/* CONFIG BOX FIVE */
+.box-five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1280px;
+    width: 100%;
+    margin-bottom: 45px;
+    background-color: rgb(36, 36, 46);
+    padding: 25px 0;
+}
+
+.box-five h1{
+    margin-left: 400px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.box-five img{
+    height: 250px;
+    width: 211px;
+}
+
+.box-five img{
+    margin: 0 10px;
+}
+
+.alinhamento{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.alinhamento #ml{
+    margin-left: -10px;
+}
+
+/* CONFIG BOX FIVE */
+
+/* CONFIG SESSÃO INVERTIDA */
+h3.new-position{
+    display: flex;
+    margin-left: 480px;
+    text-align: center;,
+    color: red;
+}
+
+h1.position-reverse{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+/* FIM CONFIG SESSÃO INVERTIDA */
+
+/* CONFIG FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    background-color: rgb(106, 29, 136);
+}
+
+footer img{
+    width: 25px;
+    margin: 5px 8px;
+}
+
+.redes-sciais{
+    margin-left: 40%;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.redes-sciais h4{
+    color: #fff;
+    font-weight: normal;
+}
+
+.redes-sciais img.insta{
+    margin-left: 25px;
+}
+
+.redes-sciais p{
+    margin-left: -15%;
+    color: #fff;
+}
+
+footer .redes-align img{
+    display: inline;
+}
+
+/* CONFIG FOOTER */
